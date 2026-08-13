@@ -1,0 +1,41 @@
+resource_id,resource_name,resource_type,environment,region,cpu_utilization,memory_utilization,monthly_cost,public_access,backup_enabled,status
+R001,prod-web-01,Virtual Machine,Production,Central India,72,68,18500,False,True,Running
+R002,prod-web-02,Virtual Machine,Production,Central India,65,61,17200,False,True,Running
+R003,dev-web-01,Virtual Machine,Development,Central India,7,12,12100,False,True,Running
+R004,dev-web-02,Virtual Machine,Development,Central India,5,9,11800,False,True,Running
+R005,prod-db-01,Database,Production,Central India,78,73,34500,False,True,Running
+R006,prod-db-02,Database,Production,South India,71,69,31800,False,True,Running
+R007,dev-db-01,Database,Development,South India,8,15,14600,False,False,Running
+R008,storage-prod-01,Storage,Production,Central India,0,0,8200,True,True,Running
+R009,storage-prod-02,Storage,Production,South India,0,0,7600,True,False,Running
+R010,storage-dev-01,Storage,Development,Central India,0,0,4100,False,False,Running
+R011,prod-api-01,Virtual Machine,Production,Central India,81,76,19400,False,True,Running
+R012,prod-api-02,Virtual Machine,Production,Central India,76,71,18800,False,True,Running
+R013,dev-api-01,Virtual Machine,Development,Central India,4,8,10900,False,True,Running
+R014,dev-api-02,Virtual Machine,Development,South India,6,11,11300,False,True,Running
+R015,prod-cache-01,Virtual Machine,Production,South India,54,58,15400,False,True,Running
+R016,prod-cache-02,Virtual Machine,Production,South India,49,52,14900,False,True,Running
+R017,dev-cache-01,Virtual Machine,Development,Central India,3,7,9800,False,True,Running
+R018,backup-prod-01,Storage,Production,Central India,0,0,6800,False,True,Running
+R019,backup-prod-02,Storage,Production,South India,0,0,7200,False,True,Running
+R020,test-server-01,Virtual Machine,Development,Central India,2,5,8700,False,False,Running
+R021,test-server-02,Virtual Machine,Development,Central India,3,6,9100,False,False,Running
+R022,prod-worker-01,Virtual Machine,Production,Central India,68,64,16700,False,True,Running
+R023,prod-worker-02,Virtual Machine,Production,South India,63,59,16100,False,True,Running
+R024,dev-worker-01,Virtual Machine,Development,South India,9,13,10500,False,True,Running
+R025,prod-files-01,Storage,Production,Central India,0,0,9300,False,True,Running
+R026,public-assets-01,Storage,Production,Central India,0,0,6700,True,True,Running
+R027,analytics-db-01,Database,Production,South India,83,79,38600,False,True,Running
+R028,analytics-db-02,Database,Development,South India,12,18,15200,False,True,Running
+R029,dev-tools-01,Virtual Machine,Development,Central India,6,10,9600,False,True,Running
+R030,dev-tools-02,Virtual Machine,Development,Central India,8,14,10200,False,True,Running
+R031,prod-auth-01,Virtual Machine,Production,Central India,74,67,18100,False,True,Running
+R032,prod-auth-02,Virtual Machine,Production,South India,69,65,17600,False,True,Running
+R033,legacy-server-01,Virtual Machine,Development,Central India,1,4,13200,False,False,Running
+R034,legacy-server-02,Virtual Machine,Development,South India,2,5,12900,False,False,Running
+R035,prod-monitor-01,Virtual Machine,Production,Central India,42,48,12600,False,True,Running
+R036,prod-monitor-02,Virtual Machine,Production,South India,38,44,11900,False,True,Running
+R037,dev-monitor-01,Virtual Machine,Development,Central India,5,9,8900,False,True,Running
+R038,prod-reporting-db,Database,Production,Central India,67,64,28900,False,True,Running
+R039,dev-reporting-db,Database,Development,Central India,6,12,13700,False,False,Running
+R040,public-backup-store,Storage,Production,South India,0,0,8800,True,False,Running
